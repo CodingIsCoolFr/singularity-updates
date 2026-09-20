@@ -11,9 +11,9 @@
 
 <br>
 
-### [Download the latest release](https://github.com/CodingIsCoolFr/singularity-updates/releases/latest)
+### [singularity-client.pages.dev](https://singularity-client.pages.dev)
 
-Windows x64 · about 54 MB · installs for you only
+[Download the latest release](https://github.com/CodingIsCoolFr/singularity-updates/releases/latest) · Windows x64 · about 54 MB · installs for you only
 
 </div>
 
