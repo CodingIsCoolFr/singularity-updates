@@ -72,6 +72,12 @@ So the source stays private and the installers are published here. The updater
 reads this repository's latest release, and nothing secret has to travel with
 the application to make that work.
 
+Every release page here carries two links titled **Source code (zip)** and
+**Source code (tar.gz)**. GitHub attaches those to every release automatically
+and there is no way to turn them off. They are not Singularity's source. They
+hold a copy of this repository, which is this README and two images, and
+nothing else. The name is GitHub's, not a description of what is inside.
+
 Two things are checked rather than trusted, since this is where a program
 fetches code it will then run:
 
