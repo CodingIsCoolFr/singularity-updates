@@ -4,6 +4,7 @@
 
 <br>
 
+[![Website](https://img.shields.io/badge/website-singularity--client.pages.dev-eef4fb?style=flat-square&labelColor=07090e)](https://singularity-client.pages.dev)
 ![Windows](https://img.shields.io/badge/platform-Windows%20x64-cdd6e6?style=flat-square&labelColor=07090e)
 ![Installer](https://img.shields.io/badge/installer-no%20administrator-8892a6?style=flat-square&labelColor=07090e)
 ![Voice](https://img.shields.io/badge/voice-end--to--end%20encrypted-a9c6e0?style=flat-square&labelColor=07090e)
@@ -11,9 +12,13 @@
 
 <br>
 
-### [singularity-client.pages.dev](https://singularity-client.pages.dev)
+### [Download the latest release](https://github.com/CodingIsCoolFr/singularity-updates/releases/latest)
 
-[Download the latest release](https://github.com/CodingIsCoolFr/singularity-updates/releases/latest) · Windows x64 · about 54 MB · installs for you only
+Windows x64 · about 54 MB · installs for you only
+
+**Website — [singularity-client.pages.dev](https://singularity-client.pages.dev)**
+
+The same download, the whole story, and the black hole drawn live in your browser.
 
 </div>
 
