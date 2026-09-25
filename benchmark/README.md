@@ -28,20 +28,28 @@ It measures, summed over every process each app runs:
 
 ## Results so far
 
-Both idle on the same text channel, 60 seconds, Intel Core i9-13900K, 32 GB
-RAM, Windows 11 Pro, 25 September 2026. Singularity 0.7.7, Discord app
-1.0.9258. Second of two runs (the first was taken while Discord was still
-settling after start; see `benchmark-results.json` for both).
+Singularity 0.8.0 and Discord app 1.0.9258, both on the same text channel,
+neither in a call during the runs. The average of two 60-second runs, Intel
+Core i9-13900K, 32 GB RAM, Windows 11 Pro, 25 September 2026.
+
+Singularity was measured as it is really used, not fresh: open for half an
+hour, out of a voice call for twenty minutes, and playing an animated GIF as
+its background. Discord has no animated background. Redrawing that GIF is most
+of Singularity's CPU in this run, which is why Discord comes out ahead on CPU.
 
 |                        | Singularity | Discord  |
 |------------------------|------------:|---------:|
-| Private memory         |  **336 MB** |   863 MB |
-| Working set            |  **283 MB** | 1,357 MB |
-| CPU average            |       0.10% |    0.10% |
-| CPU peak               |   **0.28%** |    0.77% |
+| Private memory         |  **639 MB** |   957 MB |
+| Working set            |  **575 MB** | 1,207 MB |
+| CPU average            |       1.27% | **0.10%** |
+| CPU peak               |       2.56% | **2.35%** |
 | Processes              |       **1** |        6 |
-| Threads                |      **33** |      260 |
+| Threads                |     **107** |      248 |
 | Size on disk           |  **181 MB** |   490 MB |
 
-Only the idle case has been measured. Calls and screen share have not been
-compared yet.
+An earlier result (Singularity 0.7.7: 336 MB private, 0.10% CPU) was
+withdrawn. It was described as "both idle", but Singularity was in a voice
+call at the time, so it did not measure what it said. Its raw numbers are
+still in `benchmark-results.json`, with every other run.
+
+Calls and screen share have not been compared yet.
