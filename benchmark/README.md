@@ -28,24 +28,28 @@ It measures, summed over every process each app runs:
 
 ## Results so far
 
-Singularity 0.8.0 and Discord app 1.0.9258, both on the same text channel,
-neither in a call during the runs. The average of two 60-second runs, Intel
-Core i9-13900K, 32 GB RAM, Windows 11 Pro, 25 September 2026.
+Singularity 0.8.4 and Discord app 1.0.9259, both started a few minutes
+before, on the same text channel, neither in a call during the runs. The
+average of two 60-second runs, Intel Core i9-13900K, 32 GB RAM, Windows 11
+Pro, 25 September 2026.
 
-Singularity was measured as it is really used, not fresh: open for half an
-hour, out of a voice call for twenty minutes, and playing an animated GIF as
-its background. Discord has no animated background. Redrawing that GIF is most
-of Singularity's CPU in this run, which is why Discord comes out ahead on CPU.
+Singularity was playing an animated GIF as its background. Discord has no
+animated background. Redrawing that GIF is most of Singularity's CPU in this
+run, which is why Discord comes out ahead on average CPU.
 
 |                        | Singularity | Discord  |
 |------------------------|------------:|---------:|
-| Private memory         |  **639 MB** |   957 MB |
-| Working set            |  **575 MB** | 1,207 MB |
-| CPU average            |       1.27% | **0.10%** |
-| CPU peak               |       2.56% | **2.35%** |
+| Private memory         |  **330 MB** | 1,065 MB |
+| Working set            |  **307 MB** | 2,177 MB |
+| CPU average            |       0.60% | **0.23%** |
+| CPU peak               |   **1.03%** |    1.15% |
 | Processes              |       **1** |        6 |
-| Threads                |     **107** |      248 |
-| Size on disk           |  **181 MB** |   490 MB |
+| Threads                |      **35** |      262 |
+| Size on disk           |  **203 MB** |   490 MB |
+
+An earlier run on Singularity 0.8.0 (639 MB private, 107 threads, 1.27% CPU)
+is replaced by this one. That version had a bug in how chat videos were
+played: each one started dozens of threads. 0.8.1 fixed it.
 
 An earlier result (Singularity 0.7.7: 336 MB private, 0.10% CPU) was
 withdrawn. It was described as "both idle", but Singularity was in a voice
