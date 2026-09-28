@@ -71,11 +71,9 @@ Nothing downloads or installs without being agreed to.
 
 ## Support
 
-Singularity is free, and made by one person in their spare time. If it is
-useful to you, you can buy me a coffee on
-**[Ko-fi](https://ko-fi.com/codingiscool)** — or use the **Sponsor** button
-at the top of this page. It is never required, and nothing in the program is
-held back for it.
+Singularity is free, and made by one person. A coffee keeps an evening of work going. A meal, or more than that, is what turns a weekend into a real stretch of it. The money goes to this client, and to the projects that come after it. Nothing in the program is held back if you don't.
+
+**[Buy me a coffee on Ko-fi](https://ko-fi.com/codingiscool)** — or use the Sponsor button at the top of this page.
 
 ## Why this is a separate repository
 
