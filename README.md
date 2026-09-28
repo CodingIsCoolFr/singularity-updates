@@ -33,11 +33,8 @@ Calls work: you can talk, you can hear, and the audio is end to end encrypted
 the way Discord has required since March 2026. Cameras and shared screens are
 received and decoded as well.
 
-**This repository holds the installers.** The source is public, under the MIT
-license, at
-[CodingIsCoolFr/Singularity](https://github.com/CodingIsCoolFr/Singularity).
-How it was built is written down
-[here](docs/how-we-built-it.md) and on the site at
+**This repository holds the installers.** The source is private. How it was
+built is written down [here](docs/how-we-built-it.md) and on the site at
 [singularitycord.pages.dev/how](https://singularitycord.pages.dev/how).
 
 ## Installing
@@ -81,7 +78,7 @@ held back for it.
 
 ## Why this is a separate repository
 
-The source is public. This repository still exists because the updater wants
+The source is private. This repository still exists because the updater wants
 an installer, not the source tree. It reads this repository's latest release.
 
 Every release page here carries two links titled **Source code (zip)** and
@@ -89,8 +86,7 @@ Every release page here carries two links titled **Source code (zip)** and
 and there is no way to turn them off. They are not Singularity's source. They
 hold a copy of this repository — this README, the how-it-was-built note, the
 brand images, and the benchmark — and nothing else. The name is GitHub's, not
-a description of what is inside. The source is
-[CodingIsCoolFr/Singularity](https://github.com/CodingIsCoolFr/Singularity).
+a description of what is inside.
 
 Two things are checked rather than trusted, since this is where a program
 fetches code it will then run:
