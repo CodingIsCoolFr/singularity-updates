@@ -33,8 +33,8 @@ Calls work: you can talk, you can hear, and the audio is end to end encrypted
 the way Discord has required since March 2026. Cameras and shared screens are
 received and decoded as well.
 
-**This repository holds the installers.** The source is public, under MIT, at
-[CodingIsCoolFr/Singularity](https://github.com/CodingIsCoolFr/Singularity). How it was
+**This repository holds the installers.** The source is public, under the PolyForm Noncommercial license, at
+[CodingIsCoolFr/Singularity](https://github.com/CodingIsCoolFr/Singularity). You can read it, change it, and share it. You cannot sell it, or use it to make money. How it was
 built is written down [here](docs/how-we-built-it.md) and on the site at
 [singularitycord.pages.dev/how](https://singularitycord.pages.dev/how).
 
@@ -79,8 +79,8 @@ held back for it.
 
 ## Why this is a separate repository
 
-The source is public, under MIT, at
-[CodingIsCoolFr/Singularity](https://github.com/CodingIsCoolFr/Singularity). This
+The source is public, under the PolyForm Noncommercial license, at
+[CodingIsCoolFr/Singularity](https://github.com/CodingIsCoolFr/Singularity). You can read it, change it, and share it. You cannot sell it, or use it to make money. This
 repository still exists because the updater wants an installer, not the source
 tree. It reads this repository's latest release.
 
