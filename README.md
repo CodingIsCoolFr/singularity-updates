@@ -33,8 +33,12 @@ Calls work: you can talk, you can hear, and the audio is end to end encrypted
 the way Discord has required since March 2026. Cameras and shared screens are
 received and decoded as well.
 
-**This repository holds the installers and nothing else.** There is no source
-code here. See [why](#why-this-is-a-separate-repository) below.
+**This repository holds the installers.** The source is public, under the MIT
+license, at
+[CodingIsCoolFr/Singularity](https://github.com/CodingIsCoolFr/Singularity).
+How it was built is written down
+[here](docs/how-we-built-it.md) and on the site at
+[singularitycord.pages.dev/how](https://singularitycord.pages.dev/how).
 
 ## Installing
 
@@ -77,20 +81,16 @@ held back for it.
 
 ## Why this is a separate repository
 
-Singularity's source is private. A private repository answers `404` to anyone
-without a token, so an updater pointed at it would need a token shipped inside
-the program — and anything shipped inside a program can be taken back out of
-it. That token would then grant read access to the whole source.
-
-So the source stays private and the installers are published here. The updater
-reads this repository's latest release, and nothing secret has to travel with
-the application to make that work.
+The source is public. This repository still exists because the updater wants
+an installer, not the source tree. It reads this repository's latest release.
 
 Every release page here carries two links titled **Source code (zip)** and
 **Source code (tar.gz)**. GitHub attaches those to every release automatically
 and there is no way to turn them off. They are not Singularity's source. They
-hold a copy of this repository - this README, the brand images, the
-resource benchmark and the Sponsor button's settings - and nothing else. The name is GitHub's, not a description of what is inside.
+hold a copy of this repository — this README, the how-it-was-built note, the
+brand images, and the benchmark — and nothing else. The name is GitHub's, not
+a description of what is inside. The source is
+[CodingIsCoolFr/Singularity](https://github.com/CodingIsCoolFr/Singularity).
 
 Two things are checked rather than trusted, since this is where a program
 fetches code it will then run:
